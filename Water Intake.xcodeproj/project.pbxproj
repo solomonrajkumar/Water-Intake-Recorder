@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		682139FD1E50AE4600F8CFAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682139FC1E50AE4600F8CFAA /* AppDelegate.swift */; };
+		682139FF1E50AE4600F8CFAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682139FE1E50AE4600F8CFAA /* ViewController.swift */; };
+		68213A021E50AE4600F8CFAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68213A001E50AE4600F8CFAA /* Main.storyboard */; };
+		68213A051E50AE4600F8CFAA /* Water_Intake.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68213A031E50AE4600F8CFAA /* Water_Intake.xcdatamodeld */; };
+		68213A071E50AE4600F8CFAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68213A061E50AE4600F8CFAA /* Assets.xcassets */; };
+		68213A0A1E50AE4600F8CFAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68213A081E50AE4600F8CFAA /* LaunchScreen.storyboard */; };
+		68213A151E50AE4600F8CFAA /* Water_IntakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68213A141E50AE4600F8CFAA /* Water_IntakeTests.swift */; };
+		68213A201E50AE4600F8CFAA /* Water_IntakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68213A1F1E50AE4600F8CFAA /* Water_IntakeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68213A111E50AE4600F8CFAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 682139F11E50AE4500F8CFAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 682139F81E50AE4500F8CFAA;
+			remoteInfo = "Water Intake";
+		};
+		68213A1C1E50AE4600F8CFAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 682139F11E50AE4500F8CFAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 682139F81E50AE4500F8CFAA;
+			remoteInfo = "Water Intake";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		682139F91E50AE4500F8CFAA /* Water Intake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Water Intake.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		682139FC1E50AE4600F8CFAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		682139FE1E50AE4600F8CFAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68213A011E50AE4600F8CFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68213A041E50AE4600F8CFAA /* Water_Intake.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Water_Intake.xcdatamodel; sourceTree = "<group>"; };
+		68213A061E50AE4600F8CFAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68213A091E50AE4600F8CFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68213A0B1E50AE4600F8CFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68213A101E50AE4600F8CFAA /* Water IntakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Water IntakeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68213A141E50AE4600F8CFAA /* Water_IntakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water_IntakeTests.swift; sourceTree = "<group>"; };
+		68213A161E50AE4600F8CFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68213A1B1E50AE4600F8CFAA /* Water IntakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Water IntakeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68213A1F1E50AE4600F8CFAA /* Water_IntakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water_IntakeUITests.swift; sourceTree = "<group>"; };
+		68213A211E50AE4600F8CFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		682139F61E50AE4500F8CFAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68213A0D1E50AE4600F8CFAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68213A181E50AE4600F8CFAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		682139F01E50AE4500F8CFAA = {
+			isa = PBXGroup;
+			children = (
+				682139FB1E50AE4500F8CFAA /* Water Intake */,
+				68213A131E50AE4600F8CFAA /* Water IntakeTests */,
+				68213A1E1E50AE4600F8CFAA /* Water IntakeUITests */,
+				682139FA1E50AE4500F8CFAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		682139FA1E50AE4500F8CFAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				682139F91E50AE4500F8CFAA /* Water Intake.app */,
+				68213A101E50AE4600F8CFAA /* Water IntakeTests.xctest */,
+				68213A1B1E50AE4600F8CFAA /* Water IntakeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		682139FB1E50AE4500F8CFAA /* Water Intake */ = {
+			isa = PBXGroup;
+			children = (
+				682139FC1E50AE4600F8CFAA /* AppDelegate.swift */,
+				682139FE1E50AE4600F8CFAA /* ViewController.swift */,
+				68213A001E50AE4600F8CFAA /* Main.storyboard */,
+				68213A061E50AE4600F8CFAA /* Assets.xcassets */,
+				68213A081E50AE4600F8CFAA /* LaunchScreen.storyboard */,
+				68213A0B1E50AE4600F8CFAA /* Info.plist */,
+				68213A031E50AE4600F8CFAA /* Water_Intake.xcdatamodeld */,
+			);
+			path = "Water Intake";
+			sourceTree = "<group>";
+		};
+		68213A131E50AE4600F8CFAA /* Water IntakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				68213A141E50AE4600F8CFAA /* Water_IntakeTests.swift */,
+				68213A161E50AE4600F8CFAA /* Info.plist */,
+			);
+			path = "Water IntakeTests";
+			sourceTree = "<group>";
+		};
+		68213A1E1E50AE4600F8CFAA /* Water IntakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68213A1F1E50AE4600F8CFAA /* Water_IntakeUITests.swift */,
+				68213A211E50AE4600F8CFAA /* Info.plist */,
+			);
+			path = "Water IntakeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		682139F81E50AE4500F8CFAA /* Water Intake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68213A241E50AE4600F8CFAA /* Build configuration list for PBXNativeTarget "Water Intake" */;
+			buildPhases = (
+				682139F51E50AE4500F8CFAA /* Sources */,
+				682139F61E50AE4500F8CFAA /* Frameworks */,
+				682139F71E50AE4500F8CFAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Water Intake";
+			productName = "Water Intake";
+			productReference = 682139F91E50AE4500F8CFAA /* Water Intake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68213A0F1E50AE4600F8CFAA /* Water IntakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68213A271E50AE4600F8CFAA /* Build configuration list for PBXNativeTarget "Water IntakeTests" */;
+			buildPhases = (
+				68213A0C1E50AE4600F8CFAA /* Sources */,
+				68213A0D1E50AE4600F8CFAA /* Frameworks */,
+				68213A0E1E50AE4600F8CFAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68213A121E50AE4600F8CFAA /* PBXTargetDependency */,
+			);
+			name = "Water IntakeTests";
+			productName = "Water IntakeTests";
+			productReference = 68213A101E50AE4600F8CFAA /* Water IntakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68213A1A1E50AE4600F8CFAA /* Water IntakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68213A2A1E50AE4600F8CFAA /* Build configuration list for PBXNativeTarget "Water IntakeUITests" */;
+			buildPhases = (
+				68213A171E50AE4600F8CFAA /* Sources */,
+				68213A181E50AE4600F8CFAA /* Frameworks */,
+				68213A191E50AE4600F8CFAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68213A1D1E50AE4600F8CFAA /* PBXTargetDependency */,
+			);
+			name = "Water IntakeUITests";
+			productName = "Water IntakeUITests";
+			productReference = 68213A1B1E50AE4600F8CFAA /* Water IntakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		682139F11E50AE4500F8CFAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Solomon Rajkumar";
+				TargetAttributes = {
+					682139F81E50AE4500F8CFAA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QCNSV5U33C;
+						ProvisioningStyle = Automatic;
+					};
+					68213A0F1E50AE4600F8CFAA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QCNSV5U33C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 682139F81E50AE4500F8CFAA;
+					};
+					68213A1A1E50AE4600F8CFAA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QCNSV5U33C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 682139F81E50AE4500F8CFAA;
+					};
+				};
+			};
+			buildConfigurationList = 682139F41E50AE4500F8CFAA /* Build configuration list for PBXProject "Water Intake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 682139F01E50AE4500F8CFAA;
+			productRefGroup = 682139FA1E50AE4500F8CFAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				682139F81E50AE4500F8CFAA /* Water Intake */,
+				68213A0F1E50AE4600F8CFAA /* Water IntakeTests */,
+				68213A1A1E50AE4600F8CFAA /* Water IntakeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		682139F71E50AE4500F8CFAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68213A0A1E50AE4600F8CFAA /* LaunchScreen.storyboard in Resources */,
+				68213A071E50AE4600F8CFAA /* Assets.xcassets in Resources */,
+				68213A021E50AE4600F8CFAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68213A0E1E50AE4600F8CFAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68213A191E50AE4600F8CFAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		682139F51E50AE4500F8CFAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68213A051E50AE4600F8CFAA /* Water_Intake.xcdatamodeld in Sources */,
+				682139FF1E50AE4600F8CFAA /* ViewController.swift in Sources */,
+				682139FD1E50AE4600F8CFAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68213A0C1E50AE4600F8CFAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68213A151E50AE4600F8CFAA /* Water_IntakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68213A171E50AE4600F8CFAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68213A201E50AE4600F8CFAA /* Water_IntakeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68213A121E50AE4600F8CFAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 682139F81E50AE4500F8CFAA /* Water Intake */;
+			targetProxy = 68213A111E50AE4600F8CFAA /* PBXContainerItemProxy */;
+		};
+		68213A1D1E50AE4600F8CFAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 682139F81E50AE4500F8CFAA /* Water Intake */;
+			targetProxy = 68213A1C1E50AE4600F8CFAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68213A001E50AE4600F8CFAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68213A011E50AE4600F8CFAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68213A081E50AE4600F8CFAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68213A091E50AE4600F8CFAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68213A221E50AE4600F8CFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68213A231E50AE4600F8CFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68213A251E50AE4600F8CFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QCNSV5U33C;
+				INFOPLIST_FILE = "Water Intake/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soluappHouse.Water-Intake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		68213A261E50AE4600F8CFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QCNSV5U33C;
+				INFOPLIST_FILE = "Water Intake/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soluappHouse.Water-Intake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		68213A281E50AE4600F8CFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QCNSV5U33C;
+				INFOPLIST_FILE = "Water IntakeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soluappHouse.Water-IntakeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Water Intake.app/Water Intake";
+			};
+			name = Debug;
+		};
+		68213A291E50AE4600F8CFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QCNSV5U33C;
+				INFOPLIST_FILE = "Water IntakeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soluappHouse.Water-IntakeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Water Intake.app/Water Intake";
+			};
+			name = Release;
+		};
+		68213A2B1E50AE4600F8CFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QCNSV5U33C;
+				INFOPLIST_FILE = "Water IntakeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soluappHouse.Water-IntakeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Water Intake";
+			};
+			name = Debug;
+		};
+		68213A2C1E50AE4600F8CFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QCNSV5U33C;
+				INFOPLIST_FILE = "Water IntakeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soluappHouse.Water-IntakeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Water Intake";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		682139F41E50AE4500F8CFAA /* Build configuration list for PBXProject "Water Intake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68213A221E50AE4600F8CFAA /* Debug */,
+				68213A231E50AE4600F8CFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68213A241E50AE4600F8CFAA /* Build configuration list for PBXNativeTarget "Water Intake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68213A251E50AE4600F8CFAA /* Debug */,
+				68213A261E50AE4600F8CFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68213A271E50AE4600F8CFAA /* Build configuration list for PBXNativeTarget "Water IntakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68213A281E50AE4600F8CFAA /* Debug */,
+				68213A291E50AE4600F8CFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68213A2A1E50AE4600F8CFAA /* Build configuration list for PBXNativeTarget "Water IntakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68213A2B1E50AE4600F8CFAA /* Debug */,
+				68213A2C1E50AE4600F8CFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		68213A031E50AE4600F8CFAA /* Water_Intake.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68213A041E50AE4600F8CFAA /* Water_Intake.xcdatamodel */,
+			);
+			currentVersion = 68213A041E50AE4600F8CFAA /* Water_Intake.xcdatamodel */;
+			path = Water_Intake.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 682139F11E50AE4500F8CFAA /* Project object */;
+}
