@@ -10,6 +10,8 @@ import UIKit
 import CoreData
 
 @UIApplicationMain
+
+@available(iOS 10.0, *)
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
@@ -46,6 +48,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: - Core Data stack
 
+    
     lazy var persistentContainer: NSPersistentContainer = {
         /*
          The persistent container for the application. This implementation
